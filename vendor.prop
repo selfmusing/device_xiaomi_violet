@@ -180,12 +180,12 @@ vendor.gralloc.disable_ubwc=0
 ro.surface_flinger.enable_frame_rate_override=false
 vendor.perf.framepacing.enable=1
 
-
 # Keystore
 ro.hardware.keystore_desede=true
 
 # Media
 audio.offload.video=true
+debug.stagefright.c2inputsurface=-1
 vendor.media.target.version=2
 
 # Netmgr
