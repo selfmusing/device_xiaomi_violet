@@ -412,6 +412,7 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.1 \
     android.hardware.radio.deprecated@1.0 \
     android.hardware.radio.deprecated@1.0.vendor \
+    CarrierConfigOverlay \
     libjson \
     libprotobuf-cpp-full \
     libprotobuf-cpp-full-3.9.1-vendorcompat \
