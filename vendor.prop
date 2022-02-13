@@ -146,7 +146,6 @@ ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
 # Graphics
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
-debug.sf.disable_backpressure=1
 debug.sf.latch_unsignaled=1
 debug.sf.predict_hwc_composition_strategy=0
 debug.sf.auto_latch_unsignaled=0
