@@ -1,11 +1,14 @@
 # Camera
 persist.camera.                                 u:object_r:vendor_camera_prop:s0
 persist.vendor.camera                           u:object_r:vendor_camera_prop:s0
-vendor.camera.boot_complete                     u:object_r:vendor_camera_prop:s0
-vendor.camera.sensor.                           u:object_r:vendor_camera_prop:s0
+ro.vendor.audio.us.proximity                    u:object_r:vendor_camera_prop:s0
 ro.vendor.camera.                               u:object_r:vendor_camera_prop:s0
 ro.vendor.camera.res.fmq.size                   u:object_r:vendor_camera_prop:s0
 ro.vendor.camera.req.fmq.size                   u:object_r:vendor_camera_prop:s0
+ro.vendor.df.effect.conflict                    u:object_r:vendor_camera_prop:s0
+vendor.camera.boot_complete                     u:object_r:vendor_camera_prop:s0
+vendor.camera.sensor.                           u:object_r:vendor_camera_prop:s0
+vendor.panel.display                            u:object_r:vendor_camera_prop:s0
 
 # Fastcharge HAL
 persist.vendor.sec.fastchg_enabled          u:object_r:vendor_fastcharge_prop:s0
