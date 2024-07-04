@@ -143,7 +143,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
 $(DEVICE_PATH)/framework_compatibility_matrix.xml \
 hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
 hardware/xiaomi/vintf/xiaomi_framework_compatibility_matrix.xml \
-vendor/derp/config/device_framework_matrix.xml
+vendor/lineage/config/device_framework_matrix.xml
   
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
@@ -176,9 +176,9 @@ BOARD_SYSTEM_EXTIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 PRODUCT_FS_COMPRESSION := 1
 
-BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE := 419430400 # 400 MB
-BOARD_SYSTEMIMAGE_PARTITION_RESERVED_SIZE := 314572800 # 300 MB 
-BOARD_SYSTEM_EXTIMAGE_PARTITION_RESERVED_SIZE := 314572800 # 300 MB
+BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE := 1048576000 # 1 GB
+BOARD_SYSTEMIMAGE_PARTITION_RESERVED_SIZE := 838860800 # 800 MB
+BOARD_SYSTEM_EXTIMAGE_PARTITION_RESERVED_SIZE := 524288000 # 500 MB
 BOARD_ODMIMAGE_PARTITION_RESERVED_SIZE := 10485760 # 10 MB
 BOARD_VENDORIMAGE_PARTITION_RESERVED_SIZE := 104857600 # 100 MB
 
@@ -236,7 +236,7 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Sepolicy
 TARGET_SEPOLICY_DIR := msmsteppe
-include device/derp/sepolicy/libperfmgr/sepolicy.mk
+include device/lineage/sepolicy/libperfmgr/sepolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
