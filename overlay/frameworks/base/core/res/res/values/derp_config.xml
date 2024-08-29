@@ -48,7 +48,7 @@
          pulsating and RGB control would set this config to 75. -->
     <integer name="config_deviceLightCapabilities">232</integer>
       
-<!-- Package that contains udfps animation customization or empty to disable -->
+  <!-- Package that contains udfps animation customization or empty to disable -->
   <string name="config_udfps_animation_customization_package"></string>
   
   <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
@@ -56,5 +56,8 @@
 
   <!-- Expected value from fast charging status file  -->
   <string name="config_oemFastChargerStatusValue" translatable="false">0</string>
+
+  <!-- PowerOffAlarmService -->
+    <bool name="config_powerOffAlarmEnabled">true</bool>
 
 </resources>
