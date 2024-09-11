@@ -430,7 +430,7 @@ vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede025
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|12d4edcd852196a531f688ed74d86ea10c4acb43
 
 # Consumer IR
-vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sm6150.so
+vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sm6150.so;FIX_SONAME
 
 # Display - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/lib64/libdisp-aba.so|44993853ff9d4340e856e6f53d802f10372442d3
