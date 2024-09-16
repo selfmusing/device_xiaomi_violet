@@ -44,12 +44,11 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="violet" \
-    PRIVATE_BUILD_DESC="violet-user 10 QKQ1.190915.002 V12.5.1.0 release-keys" \
-    TARGET_DEVICE="violet" \
-    TARGET_PRODUCT="violet"
-    
+    TARGET_PRODUCT="violet" \
+    PRIVATE_BUILD_DESC="violet-user 10 QKQ1.190915.002 V12.5.1.0 release-keys"
+
     BUILD_FINGERPRINT := xiaomi/violet/violet:10/QKQ1.190915.002/V12.5.1.0.QFHINXM:user/release-keys
 
 PRODUCT_PRODUCT_PROPERTIES += \
    ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
