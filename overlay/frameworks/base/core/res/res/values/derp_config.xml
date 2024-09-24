@@ -59,5 +59,9 @@
 
   <!-- PowerOffAlarmService -->
     <bool name="config_powerOffAlarmEnabled">true</bool>
+    
+    <!-- proximity check on screen wake to prevent accidental wakeups-->
+    <bool name="config_proximityCheckOnWake">true</bool>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 
 </resources>
