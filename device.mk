@@ -200,7 +200,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libstagefright_softomx.vendor \
-    libstagefright_softomx_plugin.vendor    
+    XiaomiDolby \
+    libstagefright_softomx_plugin.vendor
 
 TARGET_EXCLUDES_AUDIOFX := true
 
