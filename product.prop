@@ -58,7 +58,6 @@ debug.cpurend.vsync=false
 debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
 debug.sf.enable_gl_backpressure=0
-debug.sf.enable_transaction_tracing=false
 persist.hwc.enable_vds=1
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.has_HDR_display=true
