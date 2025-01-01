@@ -1,6 +1,5 @@
 #
-# Copyright (C) 2018-2020 The LineageOS Project
-# Copyright (C) 2020 The PixelExperience Project
+# Copyright (C) 2020-2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -179,8 +178,8 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-service \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
-    gralloc.sm6150 \
-    hwcomposer.sm6150 \
+    gralloc.qcom \
+    hwcomposer.qcom \
     libdisplayconfig \
     libtinyxml \
     libvulkan \
