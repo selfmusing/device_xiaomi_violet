@@ -82,6 +82,10 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/camera/camxoverridesettings.txt':
         blob_fixup().regex_replace(r'0x10080', '0')
                     .regex_replace(r'0x1F', '0x0'),
+    'vendor/lib64/libVDSuperPhotoAPI.so': blob_fixup()
+        .clear_symbol_version('remote_handle_close')
+        .clear_symbol_version('remote_handle_invoke')
+        .clear_symbol_version('remote_handle_open'),                
     'vendor/lib64/libvendor.goodix.hardware.interfaces.biometrics.fingerprint@2.1.so': 
         blob_fixup().remove_needed('libhidlbase.so')
                     .binary_regex_replace(b'libhidltransport.so', 'libhidlbase-v32.so\x00'),
