@@ -12,6 +12,7 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 DERP_BUILDTYPE := Official
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_NOT_USES_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_CALL_RECORDING := true
