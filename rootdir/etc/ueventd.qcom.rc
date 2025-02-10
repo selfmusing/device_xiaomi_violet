@@ -501,7 +501,7 @@ firmware_directories /vendor/firmware_mnt/image/ /vendor/firmware/
 /dev/drv8846_dev          0660   system       camera
 
 # Battery
-/sys/class/qcom-battery         input_suspend                   0660    system  system
+/sys/class/power_supply/battery  input_suspend  0660  system  system
 
 # socinfo
 /sys/devices/soc0        serial_number   0000    root      root

@@ -312,8 +312,8 @@ on boot
     enable vendor.dataadpl
 
 # chown/chmod input_suspend node
-    chown system system /sys/class/qcom-battery/input_suspend
-    chmod 0666 /sys/class/qcom-battery/input_suspend
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
 
 # msm specific files that need to be created on /data
 on post-fs-data
