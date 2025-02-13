@@ -288,3 +288,6 @@ ro.config.hw_quickpoweron_init=true
 # Improve graphics
 persist.sys.ui.hw=true
 persist.sys.purgeable_assets=1
+
+# Fingerprint
+persist.vendor.fingerprint.type=rear
