@@ -357,14 +357,6 @@ system_ext/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar|ae304fccd77b8508
 -system_ext/lib64/com.quicinc.cne.constants@1.0.so|f76f263827ff7674a1a6d0460614de21a9b869fd
 -system_ext/lib64/com.quicinc.cne.constants@2.0.so|0645c2e1ecea7028f037666adb6bb9d3fa30ec73
 -system_ext/lib64/com.quicinc.cne.constants@2.1.so|c3c529a042edffec2299e3e9cc35d3be3c1921c1
-system_ext/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so|ef61daaa9ae8e68219800b1da15dcc22f9bf59d9
-system_ext/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so|0df6774af7a9b82aed6987b8fab0c68ef2afbb50
-system_ext/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so|7dea30c48f8dd11ca0f6b9706aa57a675fb41dd6
-system_ext/lib64/vendor.qti.hardware.data.connection@1.0.so|74368960abe43cd5ebab6e6ae9381f6a6d11fafe
-system_ext/lib64/vendor.qti.hardware.data.connection@1.1.so|cb5d976eaff0787edbdeb79fc495fb61363b8b90
-system_ext/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so|278ce834ba5c6cf201f696b610dc0e6380f7bcf8
-system_ext/lib64/vendor.qti.hardware.data.iwlan@1.0.so|6a01e04fecfab8dfdb2b290baa5c24bcca5fe0d4
-system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so|6fe3f53c35085c34e3c46d7b75679a3447d5f0c0
 
 # CNE (vendor) - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/app/CneApp/CneApp.apk|345dc6c677e9bd7a7d36033b8955e90d2a1594d5
@@ -940,13 +932,6 @@ system_ext/framework/vendor.qti.ims.rcsuce-V1.0-java.jar|53e0696f5f15f26ce7a68a4
 system_ext/framework/vendor.qti.ims.rcsuce-V1.1-java.jar|1aacd3ff385e32c6a143a2c65b31b21a2b80e8df
 system_ext/framework/vendor.qti.ims.rcsuce-V1.2-java.jar|4dc1b0f7afb2df9a41cd341296913941014388fd
 system_ext/framework/vendor.qti.ims.rcsuceaidlservice-V1-java.jar|45546607399adada54c166b0fb63ad648c6eda1e
-system_ext/lib64/com.qualcomm.qti.imscmservice@2.0.so|bfab00d1e634b3455324e33b6a95dbdcf693787c
-system_ext/lib64/com.qualcomm.qti.imscmservice@2.1.so|7d1ffd881590b235215573c5b040774d730fffb2
-system_ext/lib64/com.qualcomm.qti.imscmservice@2.2.so|a7786dd8389d2193ebe9b56a66bb38e7f54333e0
-system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so|bb9197ede96af06014599db624900b258200f8e7
-system_ext/lib64/com.qualcomm.qti.uceservice@2.1.so|10c5af144c3693933c25f80f8f250d0a14e7974d
-system_ext/lib64/com.qualcomm.qti.uceservice@2.2.so|598a98298ded231e5fadf8fd01554d6b8d5d9af3
-system_ext/lib64/com.qualcomm.qti.uceservice@2.3.so|015c6b17bfaf9fac7efd206ecae8295f59e18ea9
 system_ext/lib64/lib-imsvideocodec.so|fe3f4e54ef28d6739dae639faed9e56672bce707
 system_ext/lib64/lib-imsvt.so|ccd0a8655f950d3fa418ec9ec717ba2e96b2ac87
 system_ext/lib64/lib-imsvtextutils.so|19b0a5b9119388e735729e9a86ee7ee0a1355077
@@ -954,15 +939,6 @@ system_ext/lib64/lib-imsvtutils.so|8a8d4f3c6b57fc3a31f0982a9cd43b990514e1a7
 system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so|ca67ceb33d74db1f2d84d06a827c1c7d06bd3256
 system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so|19889926ad7e21124b32bcd56139a9343be5e768
 system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so|bb32703c026364da33ca1b4f83c839e1e312ae9b
-system_ext/lib64/vendor.qti.ims.callcapability@1.0.so|ca4663b66abf507ce7f4674b90ab3afd178e716f
-system_ext/lib64/vendor.qti.ims.callinfo@1.0.so|b249bed70ef7bc50122df99064cc2e59a080ebdc
-system_ext/lib64/vendor.qti.ims.factory@1.0.so|d5c51fd2d5f864aa85b1f6a76ebe0fef743ad6f8
-system_ext/lib64/vendor.qti.ims.factory@1.1.so|b8bfb455e70d803b6bfb35378f70493f22beda75
-system_ext/lib64/vendor.qti.ims.factory@2.0.so|db4e50433f75566781c9f30b72648fab39b2cf1b
-system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so|bd23bf20cc14360adac03b516044de8997feb61c
-system_ext/lib64/vendor.qti.ims.rcsconfig@1.1.so|854ed9a73c5a9bcc1ab31a53e03dbd19fd61c217
-system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so|b6c51c0816c6ea98a891ba8837aed61f12befe52
-system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so|6f60384c1c3747744f13c40a1be2ead761d33e1c
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|919c4398097c8b818a415efccc57e989c7c24e10
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|d1b6a6eabf17e43e98dcc4372fdabea4890f7cd8
 system_ext/priv-app/ims/ims.apk
