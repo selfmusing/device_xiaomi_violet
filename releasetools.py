@@ -15,7 +15,6 @@
 # limitations under the License.
 
 import common
-import re
 
 def FullOTA_InstallBegin(info):
   input_zip = info.input_zip
