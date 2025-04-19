@@ -555,7 +555,6 @@ vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so|2ea88db3607472df31
 vendor/lib64/libvidhance.so|329a6da91bda43ea58f20bebca452a3356a61ee9
 
 # Fingerprint
-vendor/lib64/com.fingerprints.extension@2.0.so
 vendor/lib64/hw/fingerprint.fpc.default.so
 vendor/lib64/hw/fingerprint.goodix.default.so;FIX_SONAME
 vendor/lib64/libgf_ca.so
