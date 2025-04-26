@@ -234,6 +234,7 @@ renderthread.skia.reduceopstasksplitting=true
 persist.sys.binary_xml=false
 
 # USB
+ro.usb.uvc.disable_video_encode_flag=true
 ro.usb.uvc.enabled=true
 vendor.usb.controller=a600000.dwc3
 vendor.usb.use_ffs_mtp=1
