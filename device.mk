@@ -118,7 +118,6 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     libspkrprot \
     libtinycompress \
-    libtinycompress.vendor \
     libvolumelistener \
     sound_trigger.primary.sm6150
 
@@ -167,12 +166,6 @@ PRODUCT_PACKAGES += \
     libMegviiFacepp-0.5.2 \
     libmegface
 
-# CNE
-PRODUCT_PACKAGES += \
-    cneapiclient \
-    com.quicinc.cne \
-    services-ext
-
 # Config Store
 PRODUCT_PACKAGES += \
     disable_configstore \
@@ -191,7 +184,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     gralloc.qcom \
     hwcomposer.qcom \
-    libdisplayconfig \
     libtinyxml \
     libvulkan \
     vendor.qti.hardware.display.allocator-service \
@@ -217,7 +209,6 @@ PRODUCT_PACKAGES += \
 TARGET_EXCLUDES_AUDIOFX := true
 
 PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v33/arm/arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_foundation-v33.so \
     prebuilts/vndk/v33/arm64/arch-arm64-armv8-a/shared/vndk-core/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_foundation-v33.so
 
 # DRM
@@ -397,7 +388,6 @@ PRODUCT_PACKAGES += \
     fstab.qcom_ramdisk \
     fstab.qcom \
     init.insmod.sh \
-    init.msm.usb.configfs.rc \
     init.power.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
@@ -537,8 +527,6 @@ PRODUCT_PACKAGES += \
     libavservices_minijail_32 \
     libdisplayconfig.qti \
     vendor.display.config@2.0 \
-    libdisplayconfig.vendor \
     libnl \
     libqdMetaData \
-    libqdMetaData.system \
-    libqdMetaData.vendor
+    libqdMetaData.system 
