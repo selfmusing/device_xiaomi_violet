@@ -202,9 +202,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
 
 PRODUCT_PACKAGES += \
+    DSPVolumeSynchronizer \
     libstagefright_softomx.vendor \
-    XiaomiDolby \
-    libstagefright_softomx_plugin.vendor
+    libstagefright_softomx_plugin.vendor \
+    XiaomiDolby
 
 TARGET_EXCLUDES_AUDIOFX := true
 
