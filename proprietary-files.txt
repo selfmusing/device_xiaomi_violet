@@ -442,7 +442,6 @@ vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|8215768638794162db3bb76e4304
 vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
 vendor/lib/libdapparamstorage.so|ce5f2fadc1e7d3811d73d49f64254b7054a57259
 vendor/lib/libdeccfg.so|050de5edb5fb7dabba9b59bfafcb5a1366285d3c
-vendor/lib/libhwdaphal.so|4c82e77071cbec346bfb73c20f80c91b966ed8ea
 vendor/lib/libstagefright_soft_ac4dec.so|8e42b8c6a145cbc2d844e1609d5415faf739d3ec
 vendor/lib/libstagefright_soft_ddpdec.so|b9e1aadc1c8cf7d709130d36b9c30a1f6f649b5a
 vendor/lib/libstagefrightdolby.so|1c13964cd6919e9947cf1451a77baf12ccd83810
@@ -453,7 +452,6 @@ vendor/lib/vendor.dolby.hardware.dms@2.0.so|aaf98796bfa8b384e2b5e162214ca46f6eca
 vendor/lib64/libdapparamstorage.so|7549aeba2b7041b472ffc1f5fd39a56e4be64a2b
 vendor/lib64/libdeccfg.so|3a63582be7dea50ae10c0543f68e3bce592a3877
 vendor/lib64/libdlbdsservice.so|8d070318884f02e50ad1831bb29f8bde6af33168
-vendor/lib64/libhwdaphal.so|4c82e77071cbec346bfb73c20f80c91b966ed8ea
 vendor/lib64/libstagefright_soft_ac4dec.so|d8d2dd47ca0552d4e1c5df7ad9b3becfd6d43179
 vendor/lib64/libstagefright_soft_ddpdec.so|9f921ef725bdd1edc26b484df86b10e2909f760b
 vendor/lib64/libstagefrightdolby.so|319814f3d8968e002bc1591b8e90e6eda745f79b
