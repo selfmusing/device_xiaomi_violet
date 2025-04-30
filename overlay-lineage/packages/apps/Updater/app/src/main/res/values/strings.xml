@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
+     Copyright (C) 2023 DerpFest
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- DerpFest Updater -->
 <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/selfmusing/Derp_OTA/15/violet.json</string>
+
 <string name="menu_changelog_url" translatable="false">https://raw.githubusercontent.com/selfmusing/Derp_OTA/15/changelogs_violet.txt</string>
+
 </resources>
+    
