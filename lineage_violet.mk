@@ -12,7 +12,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 DERPFEST_BUILD_TYPE := Official
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_NOT_USES_BLUR := true
+TARGET_NOT_USES_BLUR := false
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ARCORE := true
