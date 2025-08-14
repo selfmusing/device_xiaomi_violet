@@ -397,23 +397,6 @@
         <item>30</item>
     </integer-array>
 
-    <!-- Vibrator pattern for feedback about booting with safe mode enabled -->
-    <integer-array name="config_safeModeEnabledVibePattern">
-        <item>1</item>
-        <item>20</item>
-        <item>21</item>
-        <item>500</item>
-        <item>600</item>
-    </integer-array>
-
-    <!-- Vibrator pattern for feedback about hitting a scroll barrier -->
-    <integer-array name="config_scrollBarrierVibePattern">
-        <item>0</item>
-        <item>8</item>
-        <item>5</item>
-        <item>5</item>
-    </integer-array>
-
     <!-- Regex of wired ethernet ifaces -->
     <string translatable="false" name="config_ethernet_iface_regex">eth0</string>
 
