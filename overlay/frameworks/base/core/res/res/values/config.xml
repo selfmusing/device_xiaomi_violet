@@ -478,5 +478,8 @@
 <!-- Control whether the pickup gesture is enabled by default. This value will be used
      during initialization when the setting is still null. -->
     <bool name="config_dozePickupGestureEnabled">true</bool>
+
+<!-- If AOD can show an ambient version of the wallpaper -->
+    <bool name="config_dozeSupportsAodWallpaper">true</bool>
     
 </resources>
