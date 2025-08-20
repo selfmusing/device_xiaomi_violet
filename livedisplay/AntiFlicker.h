@@ -5,16 +5,17 @@
 
 #pragma once
 
-#include <aidl/vendor/lineage/livedisplay/BnSunlightEnhancement.h>
+#include <aidl/vendor/lineage/livedisplay/BnAntiFlicker.h>
 
 namespace aidl {
 namespace vendor {
 namespace lineage {
 namespace livedisplay {
 
-class SunlightEnhancement : public BnSunlightEnhancement {
-    // Methods from ::aidl::vendor::lineage::livedisplay::BnSunlightEnhancement follow.
-    ndk::ScopedAStatus getEnabled(bool* _aidl_return) override;
+class AntiFlicker : public BnAntiFlicker {
+  public:
+    // Methods from ::aidl::vendor::lineage::livedisplay::BnAntiFlicker follow.
+    ndk::ScopedAStatus getEnabled(bool* aidl_return) override;
     ndk::ScopedAStatus setEnabled(bool enabled) override;
 };
 
