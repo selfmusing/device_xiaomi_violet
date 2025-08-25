@@ -56,14 +56,8 @@
 
          For example, a device with notification and battery lights that supports
          pulsating and RGB control would set this config to 75. -->
-    <integer name="config_deviceLightCapabilities">232</integer>
-        
-  <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
-  <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/qcom-battery/restrict_chg</string>
+    <integer name="config_deviceLightCapabilities">232</integer>    
 
-  <!-- Expected value from fast charging status file  -->
-  <string name="config_oemFastChargerStatusValue" translatable="false">0</string>
-    
     <!-- proximity check on screen wake to prevent accidental wakeups-->
     <bool name="config_proximityCheckOnWake">true</bool>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
