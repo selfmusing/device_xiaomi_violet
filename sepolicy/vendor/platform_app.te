@@ -14,8 +14,3 @@ allow platform_app {
 allow platform_app vendor_sysfs_battery_supply:dir search;
 allow platform_app vendor_sysfs_battery_supply:file r_file_perms;
 allow platform_app vendor_sysfs_kgsl:file r_file_perms;
-
-# Dolby
-allow platform_app hal_dms_hwservice:hwservice_manager find;
-binder_call(platform_app, hal_dms_default)
-get_prop(platform_app, audio_config_prop)

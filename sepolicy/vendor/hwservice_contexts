@@ -12,6 +12,3 @@ vendor.xiaomi.hardware.mlipay::IMlipayService                                 u:
 # Miui Camera
 vendor.xiaomi.hardware.campostproc::IMiPostProcService                  u:object_r:hal_camerapostproc_xiaomi_hwservice:s0
 vendor.xiaomi.hardware.misys::IMiSys                                    u:object_r:hal_misys_hwservice:s0
-
-# Dolby
-vendor.dolby.hardware.dms::IDms                                                          u:object_r:hal_dms_hwservice:s0

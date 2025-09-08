@@ -467,10 +467,6 @@ on post-fs-data
     # Create dir for TUI
     mkdir /data/vendor/tui 0700 system system
 
-# Dolby
-    mkdir /data/vendor/dolby 0770 media media
-    mkdir /data/vendor/multimedia 0775 system system
-
 on property:init.svc.vendor.charger=running
     mount_all /vendor/etc/charger_fstab.qti --early
     start vendor.power_off_alarm

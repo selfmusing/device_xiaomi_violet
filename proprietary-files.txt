@@ -433,31 +433,6 @@ vendor/lib64/libsdm-disp-vndapis.so|60da199073d2b0881bf075190a644b332503f39c
 vendor/lib64/libsdmextension.so|e10d29f29b7a53b75369e58e8a165b2b86609f26
 vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
 
-# Dolby
-odm/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service|b12d07c4786afb687b82ccef63db4df16da8952c
-vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|8215768638794162db3bb76e43045926fcbb4b0b
-vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
-vendor/lib/libdapparamstorage.so|ce5f2fadc1e7d3811d73d49f64254b7054a57259
-vendor/lib/libdeccfg.so|050de5edb5fb7dabba9b59bfafcb5a1366285d3c
-vendor/lib/libstagefright_soft_ac4dec.so|8e42b8c6a145cbc2d844e1609d5415faf739d3ec
-vendor/lib/libstagefright_soft_ddpdec.so|b9e1aadc1c8cf7d709130d36b9c30a1f6f649b5a
-vendor/lib/libstagefrightdolby.so|1c13964cd6919e9947cf1451a77baf12ccd83810
-vendor/lib/soundfx/libswdap.so|810d0e266e4a77f06cba72fe8bdde2e1ede4f9f9
-vendor/lib/soundfx/libswgamedap.so|c7d35eb932ecffb384ec62628404df3406b63919
-vendor/lib/soundfx/libswvqe.so|3009202dcdd5b8fadb9c43a8cf5f0fe1c28311a6
-vendor/lib/vendor.dolby.hardware.dms@2.0.so|aaf98796bfa8b384e2b5e162214ca46f6eca5dbc
-vendor/lib64/libdapparamstorage.so|7549aeba2b7041b472ffc1f5fd39a56e4be64a2b
-vendor/lib64/libdeccfg.so|3a63582be7dea50ae10c0543f68e3bce592a3877
-vendor/lib64/libdlbdsservice.so|8d070318884f02e50ad1831bb29f8bde6af33168
-vendor/lib64/libstagefright_soft_ac4dec.so|d8d2dd47ca0552d4e1c5df7ad9b3becfd6d43179
-vendor/lib64/libstagefright_soft_ddpdec.so|9f921ef725bdd1edc26b484df86b10e2909f760b
-vendor/lib64/libstagefrightdolby.so|319814f3d8968e002bc1591b8e90e6eda745f79b
-vendor/lib64/soundfx/libswdap.so|e996ee1d421b3b2cf74f3f3ed93bff067d83dddb
-vendor/lib64/soundfx/libswgamedap.so|c898fd5b51312c5fafa693ca037423c5bae23101
-vendor/lib64/soundfx/libswvqe.so|08394e1ac285479213604c35cb144147fdac68c0
-vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|92eb0a2b730810881288119fc4d038f52870acd1
-vendor/lib64/vendor.dolby.hardware.dms@2.0.so|a93b5cf33ae57387a2d32686520a0d1dd5d10dcc
-
 # DPM (system) - from LA.QSSI.14.0.r1-15800-qssi.0
 system/framework/tcmclient.jar|4e1dfaa243c67fec31b5a44086c9c417892761ae
 system_ext/bin/dpmd|94349101b52498554d12d3622e2b2dbd1263558d
