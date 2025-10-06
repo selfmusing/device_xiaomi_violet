@@ -7,9 +7,11 @@
 
   <!-- Package that contains udfps animation customization or empty to disable -->
   <string name="config_udfps_animation_customization_package"></string>
-  
-  
+    
   <!-- PowerOffAlarmService -->
   <bool name="config_powerOffAlarmEnabled">true</bool>
+
+  <!-- Build fingerprint from stock ROM -->
+  <string name="config_sfp" translatable="false">xiaomi/violet/violet:10/QKQ1.190915.002/V12.5.1.0.QFHINXM:user/release-keys</string>
 
 </resources>   
