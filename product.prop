@@ -33,7 +33,7 @@ bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 
 # BPF
-ro.bpf.kver_override=5.4.186
+ro.bpf.kver_override=5.4.299
 
 # Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.android.camera2,org.lineageos.snap
@@ -105,5 +105,4 @@ persist.vendor.delta_time.enable=true
 # Wireless display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
-
 
