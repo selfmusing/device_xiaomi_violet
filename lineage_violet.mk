@@ -31,6 +31,7 @@ USE_LEGACY_BOOTANIMATION := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # MiuiCamera
+TARGET_CAMERA_PACKAGE_NAME := com.android.camera
 $(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
 
 # Disable UDFPS animations ( unsupported )
