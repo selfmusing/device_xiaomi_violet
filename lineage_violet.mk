@@ -37,6 +37,10 @@ $(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
 # Disable UDFPS animations ( unsupported )
 EXTRA_UDFPS_ICONS := false
 
+# Enable Material Design 3 Expressive
+PRODUCT_PRODUCT_PROPERTIES += \
+    is_expressive_design_enabled=true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_violet
 PRODUCT_DEVICE := violet
