@@ -473,9 +473,6 @@
      during initialization when the setting is still null. -->
     <bool name="config_dozePickupGestureEnabled">true</bool>
 
-<!-- If AOD can show an ambient version of the wallpaper -->
-    <bool name="config_dozeSupportsAodWallpaper">true</bool>
-
     <!-- Whether WM DisplayContent supports high performance transitions
          (lower-end devices may want to disable) -->
     <bool name="config_deviceSupportsHighPerfTransitions">false</bool>
