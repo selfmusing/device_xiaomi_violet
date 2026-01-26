@@ -32,9 +32,6 @@ bluetooth.profile.pan.panu.enabled?=true
 bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 
-# BPF
-ro.bpf.kver_override=5.4.299
-
 # Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.android.camera2,org.lineageos.snap
 
@@ -50,6 +47,9 @@ debug.hwui.skia_atrace_enabled=false
 
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
+
+# eBPF
+ro.bpf.kver_override=5.10.247
 
 # Graphics
 debug.hwui.renderer=skiagl
