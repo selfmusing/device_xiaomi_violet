@@ -422,7 +422,7 @@ vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sm6150.so;FIX_S
 # Display - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/lib64/libdisp-aba.so|44993853ff9d4340e856e6f53d802f10372442d3
 vendor/lib64/libdisplayqos.so|5548732c916e629f18f45ce257ce843b679a136a
-vendor/lib64/libdpps.so|8a20ba129c6c97972114f6d8da52bd7692739634
+vendor/lib64/libdpps.so|df3308c622b1f599b8996aac69a15e8a5edf727a
 
 # DPM (system) - from LA.QSSI.14.0.r1-15800-qssi.0
 system/framework/tcmclient.jar|4e1dfaa243c67fec31b5a44086c9c417892761ae
@@ -1086,7 +1086,7 @@ vendor/etc/thermal-engine.conf
 vendor/lib64/libthermalfeature.so
 
 # Thermal Engine - from Xiaomi
-vendor/etc/thermal-engine-normal.conf|984d9719e185b13e32d1c7ec11b78dfc18079ed0
+vendor/etc/thermal-engine-normal.conf|7a7456de90201e7e410210d78d08dae428ba6dcf
 
 # Thermal (init script) - from LA.UM.8.9.r1-07100-SM6xx.0
 vendor/etc/init/init_thermal-engine.rc|f0d14aa4734b2e8afd61a4eed73238187b268f48
